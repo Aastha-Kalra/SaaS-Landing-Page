@@ -18,7 +18,7 @@ const Team = () => {
           <p className="bg-sky-500 h-[3px] w-28"></p>
         </div>
 
-        <div className="px-12 sm:px-16 md:px-28  2xl:px-[136px] lg:px-[72px] mt-10 flex flex-col lg:gap-0 gap-10">
+        <div className="px-6 sm:px-16 md:px-28  2xl:px-[136px] lg:px-[72px] mt-10 flex flex-col lg:gap-0 gap-10">
           <div className="flex  justify-start  2xl:px-24">
             <div className="flex bg-sky-50 sm:w-fit  sm:flex-row  w-full flex-col">
               <div className="w-full py-14 flex flex-col justify-center items-center">

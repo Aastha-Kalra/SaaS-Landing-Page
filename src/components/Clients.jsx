@@ -36,7 +36,7 @@ const Clients = () => {
 
   return (
     <div className="w-full h-full pb-4 mt-44 " id="clients">
-      <div className="bg-gray-50 w-full py-20 h-full flex flex-col justify-center items-center gap-5  font-semibold px-64">
+      <div className="bg-gray-50 w-full py-20 h-full flex flex-col justify-center items-center gap-5  font-semibold lg:px-64">
         <div className="text-5xl font-extrabold text-black/80">Our Clients</div>
         <div className="flex flex-col justify-center items-center">
           <hr className="bg-sky-500 h-1 w-40" />

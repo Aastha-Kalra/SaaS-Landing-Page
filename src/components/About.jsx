@@ -13,7 +13,7 @@ const About = () => {
           className="w-[50em]"
         />
       </div>
-      <div className="w-full">
+      <div className="w-full px-3">
         <p className="text-xl text-sky-500 lg:-mt-16">ABOUT US</p>
         <h1 className="text-4xl xl:text-5xl 2xl:text-[52px] font-bold text-sky-500 my-2">
           9+ Years' Experience
