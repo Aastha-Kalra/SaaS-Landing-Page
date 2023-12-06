@@ -43,19 +43,19 @@ const Team = () => {
                 <img
                   src="https://hashuudev-solar-site.netlify.app/img/team-333.jpg"
                   alt=""
-                  className="h-80"
+                  className="sm:h-80"
                 />
               </div>
             </div>
           </div>
 
           <div className="flex  justify-end lg:px-4 2xl:px-10">
-            <div className="flex bg-sky-50 w-fit sm:flex-row flex-col">
+            <div className="flex bg-sky-50 sm:w-fit sm:flex-row w-full flex-col">
               <div className="w-full">
                 <img
                   src="https://hashuudev-solar-site.netlify.app/img/team-1.jpeg"
                   alt=""
-                  className="h-80 w-80"
+                  className="sm:h-80 sm:w-80"
                 />
               </div>
               <div className="w-full flex flex-col justify-center items-center px-1 py-4">
@@ -104,8 +104,8 @@ const Team = () => {
         
         2xl:px-24"
           >
-            <div className="flex bg-sky-50 w-fit sm:flex-row flex-col ">
-              <div className="w-full py-1 flex flex-col justify-center items-center">
+            <div className="flex bg-sky-50 w-full  sm:w-fit sm:flex-row flex-col">
+              <div className="w-full py-4 flex flex-col justify-center items-center">
                 <div className="text-xl font-semibold text-black/80">
                   ENGR. RANA MAHMOOD
                 </div>
@@ -133,18 +133,18 @@ const Team = () => {
                 <img
                   src="https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
                   alt=""
-                  className="h-80 w-80"
+                  className="sm:h-80 sm:w-80"
                 />
               </div>
             </div>
           </div>
           <div className="flex  justify-end 2xl:px-10">
-            <div className="flex bg-sky-50 w-fit sm:flex-row flex-col">
+            <div className="flex bg-sky-50 w-full sm:w-fit sm:flex-row flex-col">
               <div className="w-full">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/400px-Pierre-Person.jpg"
                   alt=""
-                  className="h-80 w-80"
+                  className="sm:h-80 sm:w-80 w-full"
                 />
               </div>
               <div className="w-full flex flex-col justify-center items-center px-3 py-4">
