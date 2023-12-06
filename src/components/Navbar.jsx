@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="font-bold text-white text-3xl text-left">
             SMART ENERGY
           </div>
-          <div onClick={() => setOpen(!open)}>
+          <div className="text-3xl pt-3" onClick={() => setOpen(!open)}>
             <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </div>
         </div>
@@ -111,17 +111,6 @@ const Navbar = () => {
               className="cursor-pointer hover:text-sky-600"
             >
               TEAM
-            </Link>
-            <Link
-              to="price"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className="cursor-pointer hover:text-sky-600"
-            >
-              PRICING
             </Link>
             <Link
               to="blogs"
